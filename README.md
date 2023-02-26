@@ -29,4 +29,8 @@ Or just write both pair of credentials at the same time and execute all the test
 In both cases, we are executing the test in cloud, in the Web case, we are using lambdaTest and in the app case, Browserstack (the free version of LambdaTest don't support Mobile app testing) 
 
 This providers supoort logs, screenshots, video recordings and in Lambdatest cases, analytics. (Screenshots and more info in Notion page) 
+Also, could be used any other reporting system like `allure`  `pytest-html-reporter`   `pytest-slack` etc...
+
+### PS 
+If need to review the results in Lambdatest or Browserstack, feel free to write me an email and I will send you and invitation for both 
 
