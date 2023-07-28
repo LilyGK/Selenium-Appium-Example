@@ -1,4 +1,4 @@
-# MadColectiveTest
+# Selenium+Appium-Example
 
 
 To been able to execute the tests, is needed to have clone the repository, and have installed the package in the `requirements.txt` files.
@@ -10,12 +10,12 @@ And move to the directory where are the tests you want to execute.
 
 ## Web tests:
   
- `export LT_USERNAME ="lilia.96.k" export LT_ACCESS_KEY = "nAQb3fg1EFm9dBlEw6RVtjfWeiFl1wWsif7J2pDVWzCZ5rcXaQ"` 
+ `export LT_USERNAME ="***username***" export LT_ACCESS_KEY = "***key***"` 
 
  `pytest test_search_wikipedia_web.py -v`
  
 ## App tests: 
-`export BS_USERNAME="liliakhabarova_LQBE2f" export BS_ACCESS_KEY="HkNnzbKz4EpijxnzN9d5"`
+`export BS_USERNAME="***username***" export BS_ACCESS_KEY="***key***"`
 
 `pytest test_wikipedia_searching_app.py -v`
 
